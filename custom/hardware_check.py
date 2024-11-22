@@ -6,5 +6,7 @@ def check_hardware():
         device = torch.device("cuda")
         gpu_name = torch.cuda.get_device_name(device)
         print(f"Using GPU: {gpu_name}")
+        return True
     else:
         print("Using CPU")
+        return False
