@@ -1,0 +1,23 @@
+# path: /home/chenyinjie/superaccurate/ultralytics/datasets
+
+
+train: 
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen640/images/train
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen6400831/images/train
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen823/images/train
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen826/images/train
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowenstraight/images/train
+  # - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen903/images/train
+
+val:
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen640/images/val
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen6400831/images/val
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen823/images/val
+  - /home/chenyinjie/superaccurate/ultralytics/datasets/bowenstraight/images/val
+  # - /home/chenyinjie/superaccurate/ultralytics/datasets/bowen903/images/val
+
+kpt_shape: [1, 3]
+flip_idx: [0]
+
+names: 
+  0: weldseam
